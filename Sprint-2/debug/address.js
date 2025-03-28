@@ -13,3 +13,6 @@ const address = {
 };
 
 console.log(`My house number is ${address[0]}`);
+
+//address [0] gets the index in an array not the first key value pair in an object
+console.log(`My house number is ${address.houseNumber}`);

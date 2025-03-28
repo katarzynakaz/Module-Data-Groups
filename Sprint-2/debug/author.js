@@ -11,6 +11,12 @@ const author = {
   alive: true,
 };
 
-for (const value of author) {
-  console.log(value);
+// for (const value of author) {
+//   console.log(value);
+// }
+
+// it attempts to loop over the keys 
+
+for (const key in author) {
+  console.log(author[key])
 }
